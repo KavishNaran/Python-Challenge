@@ -17,7 +17,7 @@ with open(csvfile,'r') as csvfile:
     profit_change = []
     
                       
-    #Interate through values to calculate output values
+    #Iterate through values to calculate output values
     for row in csvreader:
         months.append(row[0])
         profit_loss.append(int(row[1]))
